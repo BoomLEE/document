@@ -1,0 +1,54 @@
+mng_folders_tag_mst_rc
+mng_sub_folders_mst_rc
+mng_folders_mst_rc
+
+mng.$table.folders_tag_mst_rc
+
+| mng_analyze_folder_b                    |
+| mng_analyze_folder_comment              |
+| mng_analyze_folder_count                |
+| mng_analyze_folder_m                    |
+| mng_analyze_folder_s                    |
+
+| mng_folders_detail_mst                  |
+| mng_folders_detail_sub_mst              |
+| mng_folders_detail_sub_trn              |
+| mng_folders_detail_trn                  |
+
+
+| mng_folders_mst                         |
+| mng_folders_mst_rc    (o)               |k
+
+| mng_folders_status                      |k
+
+| mng_folders_sub_mst                     |
+| mng_folders_sub_trn                     |
+
+| mng_def_folders_tag_mst_rc              |k
+| mng_folders_tag_mst_rc                  |k
+
+| mng_folders_trn                         |
+| mng_folders_trn_rc                      |
+
+| mng_positive_folders_mst                |
+| mng_positive_folders_mst_rc  (o)        |k
+| mng_positive_folders_tag_mst_rc         |
+| mng_positive_folders_trn_rc             | 
+
+| mng_sub_folders_mst_rc  (o)             |k
+| mng_sub_folders_trn_rc                  |
+
+| mng_sub_positive_folders_mst_rc   (o)   |k
+| mng_sub_positive_folders_trn_rc         | 
+| mng_seqrch                        (o)   |k
+
+
+mng_folders_mst_rc
+
+
+| mypage_alertlog                         |k
+| mypage_hotel_settings                   |k
+| mypage_hotel_settings_detail_plan       |k
+| mypage_hotel_settings_ignore_media      |k
+| mypage_settings                         |k
+
