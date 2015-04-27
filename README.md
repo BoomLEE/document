@@ -2,6 +2,7 @@
 
 - 다수의 인원이 코드를 읽을 때, 인식의 차이를 줄이기 위한 가이드라인
 - 사내 공유용입니다.
+- [Japanese](https://github.com/BoomLEE/document/blob/master/japanese.md)
 
 ## PSR-1
 - 파일은 반드시 <?PHP  또는 <?= 태그로 시작해야한다.
