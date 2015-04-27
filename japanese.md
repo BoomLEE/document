@@ -1,7 +1,8 @@
 ## PHP Coding Style Guide 日本語
-複数メンバーがコードを読む際の認識のずれを抑えること
-これはPHPコードをどのような書式にするかについて、ルールや期待値を共有することで実現します。
-
+- 複数メンバーがコードを読む際の認識のずれを抑えること
+- これはPHPコードをどのような書式にするかについて、ルールや期待値を共有することで実現します。
+- [Korean](https://github.com/BoomLEE/document/blob/master/readme.md)
+- 
 # PSR-1
 
 
