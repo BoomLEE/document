@@ -2,6 +2,7 @@
 - 複数メンバーがコードを読む際の認識のずれを抑えること
 - これはPHPコードをどのような書式にするかについて、ルールや期待値を共有することで実現します。
 - [韓国語](https://github.com/BoomLEE/document/blob/master/README.md)
+- 後でexampleも追加します。
 
 ## PSR-1
 - PHPコードは「<?php」及び 「<?=」タグを使用しなければならない。
