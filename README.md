@@ -4,4 +4,4 @@
 
 ## Laravel
 - [Composer & Laravel Install](https://github.com/BoomLEE/document/blob/master/laravel_install.md)
-- [Laravel Initialization](https://github.com/BoomLEE/document/blob/master/laravel_install.md)
+- [Laravel Initialization](https://github.com/BoomLEE/document/blob/master/laravel_init.md)
