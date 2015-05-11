@@ -47,7 +47,7 @@ Private key: C:/Users/psinc/rc_abroad_dev/.vagrant/machines/default/virtualbox/p
 ```
 
 3.ssh loginできるソフト(RLoginなど)
-C:\Users\psinc\rc_abroad_dev>フォルダーにある「Vagrantfile」を修正。
+- C:\Users\psinc\rc_abroad_dev>フォルダーにある「Vagrantfile」を修正。
 ```
 config.vm.network "private_network", ip: "192.168.33.10"
 //コメントアウトを外す。
