@@ -5,10 +5,10 @@
 
 ## windowsでのvagrantインストール
 1.VirtualBoxのインストール
-https://www.virtualbox.org/wiki/Downloads
+- https://www.virtualbox.org/wiki/Downloads
 
 2.Vagrantのインストール
-https://www.vagrantup.com/downloads.html
+- https://www.vagrantup.com/downloads.html
 
 3.UbuntuのVirtualBoxへの登録
 ```
