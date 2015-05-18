@@ -52,3 +52,5 @@ service apache2 restart
 (https://www.vultr.com/docs/install-mariadb-on-ubuntu-14-04)
 - [Ubuntu 14.04 LAMP setting]
 (http://zaka-think.com/linux/ubuntu/ubuntu-14-04-lamp-setting/)
+- [Ubuntu LAMP setting - vagrant box]
+(https://atlas.hashicorp.com/db_lee/boxes/laravel/versions/1.0.0)
