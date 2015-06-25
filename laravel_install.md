@@ -15,6 +15,32 @@
 ```
 
 - php composer.phar global require "laravel/installer=~1.1"
+- 下記のエラーが出た場合メモリーがないということですので
+```
+vagrant@vagrant-ubuntu-utopic-64:~$ php composer.phar create-project laravel/laravel project --prefer-dist
+Installing laravel/laravel (v5.1.1)
+  - Installing laravel/laravel (v5.1.1)
+    Loading from cache
+
+Created project in project
+Loading composer repositories with package information
+Installing dependencies (including require-dev)
+Killed
+```
+Vagrantfileを下記のようにコメントアウトする
+```
+       config.vm.provider "virtualbox" do |vb|
+  #    Display the VirtualBox GUI when booting the machine
+  #    vb.gui = true
+  
+  #    Customize the amount of memory on the VM:
+       vb.customize ["modifyvm", :id, "--memory", "1024"]
+  #    vb.memory = "1024"
+    end
+
+config.vm.provider "virtualbox" do |vb|
+vb.customize ["modifyvm", :id, "--memory", "1024"]
+```
 
 ## composerを利用してlaravelのProjectを作成。
 - php composer.phar create-project laravel/laravel your_project --prefer-dist
