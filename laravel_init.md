@@ -1,5 +1,5 @@
 ## Laravelの初期設定
--「app/config/app.php」と「app/config/database.php」を編集するだけ
+- 「app/config/app.php」と「app/config/database.php」を編集するだけ
 - sudo php artisan key:generate /* 出たキーをどこかに保存 */
 - sudo vi app/config/app.php 
 ```
